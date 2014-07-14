@@ -1,0 +1,10 @@
+#!/bin/bash
+logout_url="http://10.0.0.55/cgi-bin/do_logout"
+uid=`cat ~/.bit_network`
+rs=`curl -sd "uid=$uid" $logout_url`
+
+if [ $rs == "logout_ok" ]; then
+  echo "成功退出"
+else
+  echo "退出失败"
+fi
