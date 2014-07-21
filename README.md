@@ -6,7 +6,7 @@ bitnet
 ## 安装
 ```
 $ git clone https://github.com/SlimFancy/bitnet.git
-$ cp  bitnet/bit-login bitnet/bit-logout /user/local/bin
+$ cp  bitnet/bit-login bitnet/bit-logout /usr/local/bin
 ```
 
 *注意:* 本程序依赖curl，如果之前没有安装，运行如下命令安装
